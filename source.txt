@@ -1,0 +1,1026 @@
+index.html
+-------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac signs!</title>
+</head>
+
+<style>
+#input{
+    color:pink;
+    height: 30px;
+    width: 200px;
+    background-color:black;
+   float:center;
+   padding-right: 50px;
+}
+
+body{
+    background-color: lightblue;
+text-align: center;
+}
+
+button{
+    height: 25px;
+    width: 100px;
+    background-color:lavender;
+}
+
+
+.Z{
+    
+  
+   
+    padding-left: 50px;
+   padding-right: 0px;
+    width: 500px;
+    text-align: left;
+    
+   
+}
+
+table{
+    float: right;
+
+}
+
+
+#h{
+    text-align: center;
+    
+
+}
+
+p{
+    font-size: 25px;
+    padding: 15px;
+  float: left;
+    width: 300px;
+ 
+   
+    padding-left: 10px;
+}
+
+</style>
+
+<body>
+    
+    <h2>Choose the zodiac from the table below. . .<br> According to your birth date & month💭💭</h2>
+    <table border="10" >
+      
+      
+       
+  
+ <TR>
+        <td>Name</td>
+        <td>Date and month of your birth </td>
+        <td>Symbol</td>
+    </tr>
+ 
+  
+    <tr>
+        <td>Leo</td>
+        <td>23 July – 23 August </td>
+        <td>♌</td>
+    </tr>
+
+
+
+    <tr>
+        <td>Virgo</td>
+        <td>23 August – 23 September </td>
+        <td>♍</td>
+    </tr> 
+    
+    
+    
+    <tr>
+        <td>Libra</td>
+        <td>23 September – 23 October</td>
+        <td>♎</td>
+    </tr> 
+    
+    
+    <tr>
+        <td>Scorpio</td>
+        <td>23 October – 22 November </td>
+        <td>♏</td>
+    </tr> 
+    
+    
+    <tr>
+        <td>Aries</td>
+        <td>21 March –
+            20 April</td>
+            <td>♈</td>
+    </tr>  
+    
+    
+    <tr>
+        <td>Taurus</td>
+        <td>20 April –
+            21 May </td>
+            <td>♉</td>
+        </tr>  
+
+    
+    
+    <tr>
+        <td>Gemini</td>
+        <td>21 May –
+            21 June</td>
+            <td>♊</td>
+    </tr> 
+    
+    
+    <tr>
+        <td>Cancer</td>
+        <td>21 June –
+            23 July </td>
+            <td>♋</td>
+    </tr>  
+    
+    
+    <tr>
+        <td>Sagittarius	</td>
+        <td>	23 November –
+            22 December </td>
+            <td>♐</td>
+    </tr>
+    
+    
+    
+    <tr>
+        <td>Capricorn</td>
+        <td>22 December –
+            20 January</td>
+            <td>♑</td>
+        </tr>  
+    
+    
+    <tr>
+        <td>Aquarius</td>
+        <td>18 January –
+        19 February</td>
+        <td>♒</td>
+    </tr>
+
+
+    <tr>
+        <td>Pisces</td>
+        <td>19 February –
+            21 March</td> 
+            <td>♓</td>
+        </tr>
+
+
+</table><br><br>
+    <h1 id="h">Enter your zodiac here to know in detail. . . !</h1>
+<input type="text" id="input"/>  <BR><BR>
+<button onclick="sign()">GO!</button><br><br>
+
+
+
+<h1 class="Z">ZODIAC SIGN</h1>
+
+
+
+<p>
+    In astrology, a sign of the zodiac
+     refers to one of 12 specific constellations 
+     of the zodiac that the sun passes through.
+      A person's particular sign of the zodiac
+       is the one that the sun was in when they
+        were born. It is a belief in astrology that a person's
+         personality can be predicted using their sign of the zodiac
+
+</p>
+
+
+</body>
+
+<script>
+    function sign(){
+        var input=document.getElementById("input").value;
+        if(input=="leo"
+        ){
+          window.open("leo.html");
+         
+        }else if(input=="leo "){
+          window.open("leo.html");
+         
+        }else if(input=="Leo"){
+          window.open("leo.html");
+        }else if(input=="Leo "){
+          window.open("leo.html");}
+          else if(input=="LEO "){
+          window.open("leo.html");}else if(input=="LEO"){
+          window.open("leo.html");}
+        
+        
+        else if(input=="virgo"){
+          window.open("virgo.html");}
+          else if(input=="virgo "){
+          window.open("virgo.html");}
+        else if(input=="Virgo"){
+          window.open("virgo.html");}
+          else if(input=="Virgo "){
+          window.open("virgo.html");}
+          else if(input=="VIRGO"){
+          window.open("virgo.html");}
+          else if(input=="VIRGO "){
+          window.open("virgo.html");}
+      
+      
+      
+      
+      else if(input=="libra"){
+          window.open("libra.html");}
+          
+      else if(input=="libra "){
+          window.open("libra.html");} 
+          
+       else if(input=="Libra"){
+          window.open("libra.html");}
+          
+          else if(input=="Libra "){
+          window.open("libra.html");}
+          
+          else if(input=="LIBRA"){
+          window.open("libra.html");}
+          
+          else if(input=="LIBRA "){
+          window.open("libra.html");}
+       
+       
+       
+       
+       else if(input=="scorpio"){
+          window.open("scorpio.html");}
+          
+          else if(input=="scorpio "){
+          window.open("scorpio.html");}
+          
+          else if(input=="Scorpio"){
+          window.open("scorpio.html");}
+          
+          else if(input=="Scorpio "){
+          window.open("scorpio.html");}
+          
+          else if(input=="SCORPIO"){
+          window.open("scorpio.html");}
+          
+          else if(input=="SCORPIO "){
+          window.open("scorpio.html");}
+       
+       
+       
+       else if(input=="aries"){
+          window.open("aries.html");}
+          
+          else if(input=="aries "){
+          window.open("aries.html");}
+          
+          else if(input=="Aries "){
+          window.open("aries.html");}
+          
+          else if(input=="Aries"){
+          window.open("aries.html");}
+          
+          else if(input=="ARIES"){
+          window.open("aries.html");}
+          
+          else if(input=="ARIES "){
+          window.open("aries.html");}
+          
+          
+          else if(input=="taurus"){
+          window.open("taurus.html");}
+          
+          else if(input=="taurus "){
+          window.open("taurus.html");}
+          
+          else if(input=="Taurus"){
+          window.open("taurus.html");}
+          
+          else if(input=="Taurus "){
+          window.open("taurus.html");}
+          
+         else if(input=="TAURUS"){
+          window.open("taurus.html");}
+          
+          else if(input=="TAURUS "){
+          window.open("taurus.html");}
+          
+          
+         else if(input=="gemini"){
+          window.open("gemini.html");}else if(input=="gemini "){
+          window.open("gemini.html");}else if(input=="Gemini"){
+          window.open("gemini.html");}else if(input=="Gemini "){
+          window.open("gemini.html");}else if(input=="GEMINI"){
+          window.open("gemini.html");}
+          else if(input=="GEMINI "){
+          window.open("gemini.html");}
+          
+          
+          
+          
+          
+          else if(input=="cancer"){
+          window.open("cancer.html");}
+          
+          else if(input=="cancer "){
+          window.open("cancer.html");}
+          
+          else if(input=="Cancer"){
+          window.open("cancer.html");}
+          
+          else if(input=="Cancer "){
+          window.open("cancer.html");}
+          
+          
+          else if(input=="CANCER"){
+          window.open("cancer.html");}
+          
+          else if(input=="CENCER "){
+          window.open("cancer.html");}
+          
+          
+          else if(input=="sagittarius"){
+          window.open("saqittarius.html");}
+          
+          else if(input=="sagittarius "){
+          window.open("saqittarius.html");}
+          
+          else if(input=="Sagittarius"){
+          window.open("saqittarius.html");}
+          
+          else if(input=="Sagittarius "){
+          window.open("saqittarius.html");}
+          
+          else if(input=="SAGITTARIUS"){
+          window.open("saqittarius.html");}
+          
+          else if(input=="SAGITTARIUS "){
+          window.open("saqittarius.html");}
+         else if(input=="SAGITTARIUS  "){
+          window.open("saqittarius.html");}
+          
+          
+          else if(input=="capricorn"){
+          window.open("capricorn.html");}
+          
+          
+          else if(input=="capricorn "){
+          window.open("capricorn.html");}
+          
+          else if(input=="Capricorn"){
+          window.open("capricorn.html");}
+          
+          else if(input=="Capricorn "){
+          window.open("capricorn.html");}
+          
+          else if(input=="CAPRICORN"){
+          window.open("capricorn.html");}
+          
+          else if(input=="CALRICORN "){
+          window.open("capricorn.html");}
+          
+          
+          
+          else if(input=="aquarius"){
+          window.open("aquarius.html");}
+          
+          
+          else if(input=="aquarius "){
+          window.open("aquarius.html");}
+          
+          else if(input=="Aquarius"){
+          window.open("aquarius.html");}
+          
+          else if(input=="Aquarius "){
+          window.open("aquarius.html");}
+          
+          
+          else if(input=="AQUARIUS"){
+          window.open("aquarius.html");}
+          
+          else if(input=="AQUARIUS "){
+          window.open("aquarius.html");}
+          
+          
+          
+          else if(input=="pisces"){
+          window.open("pisces.html");}else if(input=="pisces "){
+          window.open("pisces.html");}else if(input=="Pisces"){
+          window.open("pisces.html");}else if(input=="Pisces "){
+          window.open("pisces.html");}else if(input=="PISCES"){
+          window.open("pisces.html");}else if(input=="PISCES "){
+          window.open("pisces.html");}
+          
+          
+          
+        else{
+          alert("please inter the  valid zodiac");
+        }
+    }
+        
+        input.addEventListener('keyup',(e)=>{
+        if(e.keyCode===13){
+        sign();
+        }
+        })
+    
+</script>
+</html>
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+
+
+leo.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leo</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }
+
+</style>
+<body bgcolor="orange">
+  <h1>Leo</h1>
+<div>♌</div>
+<br><p>
+  The star of the zodiac<br><br>
+Typical sun in Leo traits include being confident, comfortable being the center of attention, drama-adoring, ambitious, loyal, fiercely protective of their nearest and dearest, generous, luxury-loving, sunny, and big-hearted.<br>
+<h3> Your lucky colour is orange!</h3>
+</p>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+
+
+
+virgo.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Virgo</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }
+</style>
+
+<body bgcolor="softblue">
+<h1>Virgo</h1>
+<div>♍</div>
+<br>
+<p>
+  Virgos are logical, practical, and systematic in their approach to life. This earth sign is a perfectionist at heart and isn't afraid to improve skills through diligent and consistent practice.<br>
+  <h3>Your lucky colour is blue!</h3>
+</p>
+</body>
+
+</html>
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+libra.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Libra</title>
+</head>
+
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }
+</style>
+
+<body>
+<h1>Libra</h1>
+<div>♎</div>
+<br>
+<p>
+  Librans are extroverted, cosy, and friendly people. Librans, like the Scales that symbolise the sign, are often concerned with attaining balance, harmony, peace, and justice in the world. With their vast stores of charm, intelligence, frankness, persuasion, and seamless connectivity, they are well-equipped to do so.<br><br>
+  White is your lucky colour!
+</p>
+</body>
+
+</html>
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+
+scorpio.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scorpio</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }
+  body{
+    background: violet;
+  }
+</style>
+<body>
+<h1>Scorpio</h1>
+<div>♏</div>
+<br>
+<p>
+  Scorpios are loyal, smart, shrewd and stoic. They stand by their beliefs, and they don't crave anyone else's approval. Scorpio is like the big, bad elder sister of the Water sign crew.
+</p><br>
+Your lucky colour is violet!
+</body>
+
+</html>
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+
+
+aries.html
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aries</title>
+</head>
+<style>
+div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }</style>
+<body bgcolor="red">
+<h1>Aries</h1>
+<div>♈</div>
+<br>
+<p>
+  Aries is a passionate, motivated, and confident leader who builds community with their cheerful disposition and relentless determination. Uncomplicated and direct in their approach, they often get frustrated by exhaustive details and unnecessary nuances. <br><br> your lucky colour is red!
+</p>
+</body>
+
+</html>
+
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+taurus.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taurus</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }
+
+</style>
+<body bgcolor="lightgreen">
+<h1> Taurus </h1>
+<div>♉</div>
+<br><p>
+  
+  Taurus is an earth sign represented by the bull. Like their celestial spirit animal, Taureans enjoy relaxing in serene, bucolic environments, surrounded by soft sounds, soothing aromas, and succulent flavors. Taurus is ruled by Venus, the enchanting planet that governs love, beauty, and money.
+</p>Your lucky colour is green!
+</body>
+
+</html>
+
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+gemini.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gemini</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }
+
+</style>
+<body bgcolor="skyblue">
+<h1>Gemini</h1>
+<div>♊</div>
+<br>
+<p>
+  Playful and intellectually curious, Gemini is constantly juggling a variety of passions, hobbies, careers, and friend groups. They are the social butterflies of the zodiac: These quick-witted twins can talk to anyone about anything. Find them buzzing between happy hours, dinner parties, and dance floors.
+</p> skyblue is your lucky colour!
+</body>
+
+</html>
+
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+cancer.html
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cancer</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }
+
+</style>
+<body bgcolor="lightyellow">
+<h1>Cancer</h1>
+<div>♋</div>
+<br>
+<p>
+  With time, though, Cancers reveal their gentle nature, genuine compassion, and mystical capabilities. Just don't be surprised if it takes a while to get to know them. Cancer is ruled by the moon, the celestial body that represents comfort, self-care, and maternal energies.
+</p>
+Your lucky colour is yellow!
+</body>
+
+</html>
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+sagittarius.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sagittarius</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:100px;
+  }
+
+</style>
+<body bgcolor="yellow">
+<h1>Sagittarius</h1>
+<div>♐</div>
+<br>
+<p>
+  Sagittarians are lively, passionate, smart and more philosophical than their clown-y energy may hint at. They love to feel free and resist rules, regulations, constraints and schedules. They just like doing what they do, when they wanna do it. They're born travellers, adventurers, explorers and free spirits.
+</p>
+Your lucky colour is dark yellow!
+</body>
+
+</html>
+
+
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+
+
+capricorn.html
+
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cparicorn</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:100px;
+  }
+
+</style>
+<body bgcolor="lavender">
+<h1>Capricorn</h1>
+<div>♑</div>
+<br>
+<p>
+  Capricorns are the hardest workers of the zodiac and love nothing more than getting ahead in life. They are ambitious, determined, materialistic and strong. They will keep going when others would've given up ten miles back. This makes them great partners in life, as well as friends or collaborators.
+</p>
+Your lucky colour is purple!
+</body>
+
+</html>
+
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+aquarius.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aquarius</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }
+
+</style>
+<body bgcolor="lightblue">
+<h1>Aquarius</h1>
+<div>♒</div>
+<br>
+<p>
+  Aquarius people are advanced, self-reliant, clever, exceptional, and optimistic. Air is their elemental sign. Aquarians, like air, lack a distinct form and appear to resist classification. Others are enthusiastic and active, while other Aquarians are calm and sensitive.
+</p> Your lucky colour is blue!
+</body>
+
+</html>
+
+
+
+
+
+---------*****---------
+
+
+
+
+
+
+pisces.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pisces</title>
+</head>
+<style>
+  div{
+    
+    height:100px;
+    width:100px;
+    font-size: 100px;
+    padding-left: 100px;
+  }
+  h1{
+    padding-left:120px;
+  }
+
+</style>
+<body bgcolor="yellow">
+<h1>Pisces</h1>
+<div>♓</div>
+<br>
+<p>Compassionate, artistic, deeply emotional, especially empathic, at least a little bit psychic, and often inclined to throw themselves into caring for others at all costs, the Pisces in your life are some of the most magical people you'll ever come in contact with.
+</p> Your lucky colour is yellow!
+</body>
+
+</html>
+
+
+
+
+
+
+
+
